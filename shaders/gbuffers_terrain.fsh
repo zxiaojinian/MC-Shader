@@ -1,5 +1,7 @@
 #version 120
 
+const int noiseTextureResolution = 256;
+
 uniform sampler2D texture;
 uniform sampler2D lightmap;
 uniform int fogMode;
